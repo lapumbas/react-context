@@ -1,0 +1,21 @@
+
+
+.List__item {
+  padding: 10px;
+  display: flex;
+  background-color: rgb(232, 232, 232);
+  margin-top: 5px;
+  min-width: 300px;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.List__item:hover {
+  background-color: rgb(208, 208, 208);
+}
+
+.List__item:active {
+  background-color: rgb(187, 187, 187);
+  color: white;
+}
